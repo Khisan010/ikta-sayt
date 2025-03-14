@@ -1,0 +1,77 @@
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+    
+    .contain{max-width: 1220px;
+    margin: 0 auto;}
+    UL{display: flex; 
+        gap: 50px;
+    }
+    nav{display: flex;
+    justify-content: space-between; }
+    a{text-decoration: none;
+        color: black;
+       
+    }
+    li{list-style: none;}
+    .bej{width: 1350px;
+        height: 700px; 
+        background-color: #F3D7B7; }
+        .text{margin-top: 200px;margin-left: 85px;}
+        h1{font-size: 70px;}
+        p{margin-top: 50px;}
+        .coffee{margin-top: -300px;
+        margin-left: 650px;}
+        .absolute{position: absolute;
+            bottom: 350px;
+            left: 570px;
+            animation-name: krug;
+            animation-duration: 8s;
+            animation-iteration-count: infinite;}
+            @keyframes krug{
+                0%{transform: rotate(0deg);}
+                100%{transform: rotate(360deg);}
+            }
+         .main{display: flex;
+        
+        margin-top: 300px; justify-content: space-between;}
+.yanadiv{width: 1350px;height: 500px;
+background-color: #C99B67;margin-top: 200px;
+padding-top: 50px;
+padding-left: 40px;}
+.hbr{margin-top: 50px;
+font-size: 50px;
+color: white;}
+.yanad{color: white;}
+.yana{ position: absolute;
+    margin-top: -600px; 
+margin-left: 700px;}
+.beje{width: 1350px;
+    height: 150px;
+    background: #F3D7B7;
+    padding: 100px;
+    
+    
+    
+    }
+    footer{display: flex;
+    
+        justify-content: space-between;
+    
+       
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

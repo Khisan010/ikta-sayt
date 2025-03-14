@@ -1,0 +1,77 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+.contain{max-width: 1220px;
+margin: 0 auto;}
+UL{display: flex; 
+    gap: 50px;
+}
+nav{display: flex;
+justify-content: space-between; }
+a{text-decoration: none;
+    color: black;
+   
+}
+li{list-style: none;}
+.nav{width: 300px;
+height: 40px;}
+.bej{width: 1350px;
+height: 700px; 
+background-color: #F3D7B7; }
+.text{margin-top: 200px;margin-left: 85px;}
+.br{font-size: 60px;}
+.ew{margin-top: 50px;}
+.coffee{margin-top: -500px;
+margin-left: 730px;
+width: 620px;
+height: 600px;}
+button{width: 170px;
+height: 40px;
+background-color:#0A775F ;
+color: white; margin-top: 50px;
+border-radius: 25px;
+border: 0;}
+.absolute{position: absolute;
+bottom: 325px;
+left: 650px;
+animation-name: krug;
+animation-duration: 8s;
+animation-iteration-count: infinite;}
+@keyframes krug{
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
+}
+.ik{font-size: 40px; 
+
+text-align: center;}
+.koffe{margin-top: 50px;
+    transition: 0.3s ease;}
+.main{width: 1100px;
+height: 1400px;}
+
+.menu{display: flex;}
+h2{font-size: 40px;}
+.we,h2{text-align: center;
+align-items: center;
+display: flex;}
+.texts{margin-top: 150px; font-size: 20px;margin-left: 200px;}
+.coff{margin-left: 120px; transition: 0.3s all ease;}
+.beje{width: 1350px;
+height: 150px;
+background: #F3D7B7;
+padding: 100px;
+
+
+
+}
+footer{display: flex;
+
+    justify-content: space-between;
+
+   
+}
+
+.koffe:hover{
+transform: scale(1.2);}
+.coff:hover{transform: scale(1.2);}
